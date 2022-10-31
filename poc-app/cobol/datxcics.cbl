@@ -1,19 +1,11 @@
        ID DIVISION.
        PROGRAM-ID. DATXCICS.
-      *    THIS DEMONSTRATES Impact build with aCICS/BMS
+      *
+      * a dup of datbatc. Dont ask Not really cics
        ENVIRONMENT DIVISION.
-       CONFIGURATION SECTION.
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-      *
-      *    COPY DFHAID.
-      *
-      * My test map
-           COPY DATMAP.
+
        PROCEDURE DIVISION.
-            DISPLAY 'Sending a test map'.
-            EXEC CICS
-                SEND MAP ('DATMAP')
-                     MAPSET('DATMLIS')
-                     FROM(DATMLISO)
-            END-EXEC.
+           DISPLAY 'hello ball ... - v1.2209'.
+           STOP RUN.

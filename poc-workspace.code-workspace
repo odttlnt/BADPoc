@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Common"
+		},
+		{
+			"path": "..\\dbb-zappbuild"
+		}
+	]
+}
